@@ -1,0 +1,229 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+    padding: 12px;
+    background-color: #212529;
+    
+}
+
+.menu > a{
+    text-decoration: none;
+    color: #C6AC8F;
+    display: flex;
+    align-items: center;
+}
+
+.menu > a > img{
+    border-radius: 100%; 
+    margin: 0 24px;
+}
+
+.sayfalar{
+    display: flex;
+    box-sizing: border-box;
+}
+
+.sayfalar > li{
+    border: 0;
+    padding: 12px;
+}
+
+.sayfalar > li:hover{
+    border-bottom : 1px solid #C6AC8F;; 
+    transition: border-width 2s ease-in;
+}
+
+.sayfalar > li > a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #C6AC8F;
+    font-size: 24px;
+}
+
+.link{
+    margin-right: 18px;
+    list-style-type: none;
+}
+
+.container{
+    width: 80%;
+    margin: 16px auto 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+iframe{
+    border-radius: 8px;
+    box-shadow: rgba(202, 172, 55, 0.25) 0px 54px 55px, rgba(202, 172, 55, 0.12) 0px -12px 30px, rgba(202, 172, 55, 0.12) 0px 4px 6px, rgba(202, 172, 55, 0.17) 0px 12px 13px, rgba(202, 172, 55, 0.09) 0px -3px 5px;
+}
+
+#cv{
+    text-align:center;
+}
+
+footer{
+    box-sizing: border-box;
+    width:100%;
+    background-color: #212529;
+    color: #C6AC8F;
+    text-align: center;
+    font-weight: bold;
+    padding: 12px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+/*İletişim formu*/
+form{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: rgba(202, 172, 55, 0.25) 0px 30px 60px -12px inset, rgba(202, 172, 55, 0.3) 0px 18px 36px -18px inset;
+}
+
+.grup{
+    display: flex;
+    flex-direction: column;
+    margin-top: 24px;
+}
+
+.grup > input,textarea {
+    margin-top: 16px;
+    min-width: 250px;
+    border: 1px solid brown;
+}
+
+.grup > input{
+    height: 24px;
+    padding: 8px;
+}
+
+.grup > textarea{
+    min-height: 100px;
+    padding: 8px;
+}
+button{
+    background-color: #212529;
+    color: #C6AC8F;
+    width: 90px;
+    margin-top: 36px;
+    padding: 16px;
+    font-weight: bolder;
+    border: 1px solid #C6AC8F;
+    border-radius: 8px;
+    margin-bottom: 36px;
+    transition: .4s;
+}
+
+button:hover{
+    background-color: white;
+    color: c;
+}
+
+/*Dersler Sayfası*/
+.ders-container{
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+}
+
+.akordiyon{
+    width: 100%;
+    height: 36px;
+    font-weight: bolder;
+    background-color: #212529; 
+    padding: 0 8px;
+    margin-bottom: 0;
+    height: 60px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.panel{
+    width: 100%;
+    height: 650px;
+    display: none;
+    margin: 0;
+}
+
+.panel > embed{
+    margin: 0;
+    width: 100%; 
+    height: 100%;
+   
+}
+
+
+.buffer{
+    width: 100%;
+    height: 100px;
+}   
+
+
+/*Şehir tanıtımı*/
+.satir{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid gold;
+    border-radius: 12px;
+    margin-bottom: 16px;
+} 
+
+
+.satir-resim{
+    height: 300px;
+    width:500px;
+    border-radius: 12px;
+    
+}
+
+.satir-aciklama{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 0 12px;
+    
+}
+
+.satir-aciklama > h3{
+    margin: 0 auto;
+}
+
+.baslik{
+    border-bottom: 2px solid gold;
+    padding: 8px 16px;
+}
+
+.tanitim-grup{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.tanitim-img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tanitim-img>img{
+    width: 600px;
+    height: 400px;
+}
